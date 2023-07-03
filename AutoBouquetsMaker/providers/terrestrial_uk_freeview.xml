@@ -321,6 +321,9 @@ if "crystal_palace" in bouquet_key and service["transport_stream_id"] in (0x801f
 if "rowridge" in bouquet_key and service["transport_stream_id"] in (0x8007, 0x802a, 0x104c):
 	skip.skip = True
 
+if "sandy_heath" in bouquet_key and service["transport_stream_id"] in (0x805a,):
+	skip.skip = True
+
 	]]>
 	</servicehacks>
 </provider>
